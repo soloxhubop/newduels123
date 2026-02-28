@@ -1,5 +1,3 @@
-task.wait(0.1)
-
 repeat task.wait() until game:IsLoaded()
 
 local Players = game:GetService("Players")
