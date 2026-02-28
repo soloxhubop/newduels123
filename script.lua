@@ -1,3 +1,9 @@
+task.wait(0.1)
+-- ============================================================
+-- 22S DUELS - BLUE EDITION + FAST ESP
+-- discord.gg/22s
+-- ============================================================
+
 repeat task.wait() until game:IsLoaded()
 
 local Players = game:GetService("Players")
@@ -28,7 +34,7 @@ if not getgenv then
     getgenv = function() return _G end
 end
 
-local ConfigFileName = "Meloskahub_DUELS_Config.json"
+local ConfigFileName = "22s_DUELS_Config.json"
 
 local Enabled = {
     SpeedBoost = false,
@@ -1313,7 +1319,7 @@ local titleLabel = Instance.new("TextLabel", header)
 titleLabel.Size = UDim2.new(1, 0, 0, 32 * guiScale)
 titleLabel.Position = UDim2.new(0, 0, 0, 10 * guiScale)
 titleLabel.BackgroundTransparency = 1
-titleLabel.Text = "Meloska duels"
+titleLabel.Text = "22S DUELS"
 titleLabel.TextColor3 = C.text
 titleLabel.Font = Enum.Font.GothamBlack
 titleLabel.TextSize = 28 * guiScale
@@ -1324,7 +1330,7 @@ local subtitleLabel = Instance.new("TextLabel", header)
 subtitleLabel.Size = UDim2.new(1, 0, 0, 24 * guiScale)
 subtitleLabel.Position = UDim2.new(0, 0, 0, 40 * guiScale)
 subtitleLabel.BackgroundTransparency = 1
-subtitleLabel.Text = "discord.gg/rvuQrn85k"
+subtitleLabel.Text = "discord.gg/22s"
 subtitleLabel.TextColor3 = C.purpleLight
 subtitleLabel.Font = Enum.Font.GothamBold
 subtitleLabel.TextSize = 16 * guiScale
